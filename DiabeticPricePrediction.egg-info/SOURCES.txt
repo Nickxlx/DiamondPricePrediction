@@ -1,7 +1,0 @@
-setup.py
-DiabeticPricePrediction.egg-info/PKG-INFO
-DiabeticPricePrediction.egg-info/SOURCES.txt
-DiabeticPricePrediction.egg-info/dependency_links.txt
-DiabeticPricePrediction.egg-info/requires.txt
-DiabeticPricePrediction.egg-info/top_level.txt
-src/__init__.py
