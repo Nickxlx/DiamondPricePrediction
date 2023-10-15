@@ -1,8 +1,10 @@
 # require packeges
+# pip insatall -r requirnments.txt
+
 pandas 
 numpy 
 flask
-
+scikit-learn
 
 # -e .  use to link requirements.txt with setup.py to create packge and to download all in req 
 # pip install -r requirements.txt 
