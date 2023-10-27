@@ -1,4 +1,4 @@
-# Code to Store pickle file (models)
+# use to code some side modules which is used in multile components  
 
 import os
 import sys

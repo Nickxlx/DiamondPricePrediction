@@ -8,6 +8,7 @@ from dataclasses import dataclass
 
 
 # initializing the data ingestion configuration
+# output of the DataIngestionconfig raw.csv, train.csv, test.csv
 
 @dataclass
 class DataIngestionconfig:
@@ -44,9 +45,9 @@ class DataIngestion:
                             index=False, header=True)
             test_set.to_csv(self.ingestion_config.test_data_path,
                             index=False, header=True)
-
             logging.info("Data Ingetion is completed")
 
+            # to the traing pipeline
             return (self.ingestion_config.train_data_path,
                     self.ingestion_config.test_data_path)
 

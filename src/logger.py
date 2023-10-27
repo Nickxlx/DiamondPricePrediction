@@ -3,13 +3,13 @@ import logging
 import os
 from datetime import datetime
 
-# defining struct of logger folder name inside of the logs folder
+# defining struct of logger folder 
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 
-# ues to join(create) current working dir with LOG_FILE folder inside the logs folder
+# creating path use to join(create) current working dir with LOG_FILE folder inside the logs folder
 logs_path = os.path.join(os.getcwd(), "logs", LOG_FILE)
 
-# creating a new file
+# creating a new file using path
 os.makedirs(logs_path, exist_ok=True)
 
 # ues to join(create) LOG_FILE folder inside the logs_path
